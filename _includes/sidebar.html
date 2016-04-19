@@ -1,25 +1,15 @@
-<head>
-	<style type="text/css">
-	   .mobileHide { display: inline;}
-	   /* Smartphone Portrait and Landscape */
-	   @media only screen
-	   and (min-device-width : 320px)
-	   and (max-device-width : 480px){  .mobileHide { display: none;}}
-	</style>
-</head>
-
 <div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <h1>
-        <a href="{{ site.baseurl }}">
-          {{ site.title }}
-        </a>
-      </h1>
-      <p class="lead">{{ site.description }}</p>
-    </div>
 
 	<div class ="mobileHide">
+		 <div class="container sidebar-sticky">
+			<div class="sidebar-about">
+			  <h1>
+				<a href="{{ site.baseurl }}">
+				  {{ site.title }}
+				</a>
+			  </h1>
+			  <p class="lead">{{ site.description }}<hr></p>
+			</div>
 		<nav class="sidebar-nav">
 		  <p class="lead">Posts:</p>
 			{% for post in site.posts %}	
@@ -36,10 +26,30 @@
 		  {% for node in pages_list %}
 			{% if node.title != null %}
 			  {% if node.layout == "page" %}
-				<a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+				<a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a><br>
 			  {% endif %}
 			{% endif %}
 		  {% endfor %}
 	  </div>
   </div>
+  
+  <div class ="mobileShow">
+		 <div class="container sidebar-sticky">
+			<div class="sidebar-about">
+			  <h1>
+				<a href="{{ site.baseurl }}">
+				  {{ site.title }}
+				</a>
+			  </h1>
+			  <p class="lead">{{ site.description }}<hr></p>
+			</div>
+		<nav class="sidebar-nav">
+		  <p class="lead">
+			<a href="{{ site.baseurl }}/posts/">Posts </a>
+			|
+			<a href="{{ site.baseurl }}/pages/"> Pages</a>
+			</p>
+	  </div>
+  </div>
+  
 </div>
