@@ -1,0 +1,31 @@
+# Dependencies
+kramdown:
+  input: GFM
+  syntax_highlighter: rogue
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Hopding
+tagline:          ''
+description:      'My Interwebs Site'
+url:              http://hopding.com
+#url:              http://127.0.0.1:4000
+baseurl:          /
+
+author:
+  name:           'Andrew Dillon'
+  url:            https://andrewjdillon.com
+
+
+gems: [jekyll-paginate, jekyll-gist]
+paginate: 5
+paginate_path: "page:num"
+
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/Hopding/Hopding.github.io
