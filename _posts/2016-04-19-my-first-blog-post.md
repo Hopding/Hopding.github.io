@@ -3,6 +3,8 @@ layout: post
 title: My First Blog Post!
 ---
 
+This is a substantially lengthy sentence that I'm going to use to see just how far I can get the text to stretch to the right of the screen.
+
 This is my first blog post. I have nothing much to say, really. But man-oh-man is this website/blog ever *smexy!*
 
 Also, here's some `code`...

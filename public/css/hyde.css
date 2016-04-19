@@ -58,20 +58,20 @@ html {
  */
 
 .sidebar {
-  padding: 2rem 1rem;
+  padding: .1rem 0rem;
+  top: 0;
+  left: 0;
+  bottom: 0;
   color: rgba(255,255,255,.5);
   background-color: #202020;
   background-image: url('/images/ios-linen.jpg');
+  text-align: center;
 }
 
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18rem;
-    text-align: center;
+    width: 16rem;
   }
 }
 
@@ -97,7 +97,7 @@ html {
 }
 .sidebar-nav-item {
   display: block;
-  line-height: 1.75;
+  line-height: 0rem;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -109,8 +109,8 @@ a.sidebar-nav-item:focus {
 
 /* Sticky sidebar
  *
- * Add the `sidebar-sticky` class to the sidebar's container to affix it the
- * contents to the bottom of the sidebar in tablets and up.
+ * Add the `sidebar-sticky` class to the sidebar's container to affix the
+ * contents to the top of the sidebar in tablets and up.
  */
 
 @media (min-width: 48em) {
@@ -135,7 +135,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
+    max-width: 55rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }
@@ -143,8 +143,8 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
-    margin-right: 4rem;
+    margin-left: 17rem;
+    margin-right: 0rem;
   }
 }
 
