@@ -1,0 +1,15 @@
+---
+layout: page
+title: Posts
+---
+<hr>
+<ul>
+{% assign posts_list = site.posts %}
+  {% for node in posts_list %}
+	{% if node.title != null %}
+	  {% if node.layout == "post" %}
+		<li><a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a><br></li>
+	  {% endif %}
+	{% endif %}
+  {% endfor %}
+  </ul>
