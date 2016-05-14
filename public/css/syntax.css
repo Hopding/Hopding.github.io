@@ -1,5 +1,5 @@
-.highlight pre { background-color: rgba(50, 50, 50, 0.5) }
-.highlight .hll { background-color: rgba(50, 50, 50, 0.5) }
+.highlight pre { background-color: #262626 }
+.highlight .hll { background-color: #262626 }
 .highlight .c { color: #999999; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .g { color: #d0d0d0 } /* Generic */

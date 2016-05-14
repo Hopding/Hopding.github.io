@@ -63,15 +63,15 @@ html {
 }
 
 body {
-  color: #d9d9d9;
-  background-color: #262626;
+  color: #0d0d0d;
+  background-color: #737373;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #d9d9d9;
+  color: #0d0d0d;
   text-decoration: underline;
 }
 a strong {
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #d9d9d9;
+  color: #0d0d0d;
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -114,7 +114,7 @@ p {
 }
 
 strong {
-  color: #fff;
+  color: #000;
 }
 
 
@@ -160,7 +160,8 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  background-color: rgba(50, 50, 50, 0.5);
+  background-color: #262626;
+  color: #d0d0d0;
   border-radius: 3px;
   text-shadow: 0 1px 3px rgba(0,0,0,1);
 }
@@ -176,14 +177,14 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   border-radius: 5px;
+  background-color: #262626;
 }
 pre code {
   padding: 0;
   font-size: 100%;
-  color: inherit;
+  color: d0d0d0;
   background-color: transparent;
   box-shadow: none;
-  /*white-space: pre;*/
 }
 
 /* Pygments via Jekyll */
@@ -221,7 +222,7 @@ pre code {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
+  color: #4d4d4d;
   border-left: .25rem solid #e5e5e5;
 }
 blockquote p:last-child {
@@ -344,7 +345,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: #d9d9d9;
+  color: #0d0d0d;
 }
 .page-title,
 .post-title {
@@ -356,7 +357,7 @@ tbody tr:nth-child(odd) th {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #d9d9d9;
+  color: #0d0d0d;
 }
 
 /* Related posts */
