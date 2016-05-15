@@ -1,31 +1,81 @@
-# Dependencies
-kramdown:
-  input: GFM
-  syntax_highlighter: rogue
-
-# Permalinks
-permalink:        pretty
-
-# Setup
 title:            Hopding
-tagline:          ''
-description:      'My Interwebs Site'
-url:              http://hopding.com
-#url:              http://127.0.0.1:4000
-baseurl:          /
+description:      My interwebs site...
+disqus_shortname: 
+reading_time:     false
+words_per_minute: 200
+# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# When testing locally leave blank or use http://localhost:4000
+url: http://hopding.com
 
-author:
-  name:           'Andrew Dillon'
-  url:            https://andrewjdillon.com
+# Owner/author information
+owner:
+  name:           Andrew Dillon
+  avatar:         avatar.jpg
+  bio:            "I love programming, HTM, and some other stuff."
+  email:          andrew.dillon.j@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        
+  facebook:       
+  github:         
+  stackexchange:  
+  linkedin:       
+  instagram:      
+  flickr:         
+  tumblr:         
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:
 
+# Background image to be tiled on all pages
+background: ios-linen.jpg
 
-gems: [jekyll-paginate, jekyll-gist]
+# Analytics and webmaster tools stuff goes here
+google_analytics:   
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:         
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# timezone:    America/New_York
+future:      true
+highlighter: rouge
+markdown:    kramdown
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+# Amount of post to show on home page
 paginate: 5
-paginate_path: "page:num"
 
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-# Custom vars
-version:          2.1.0
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
 
-github:
-  repo:           https://github.com/Hopding/Hopding.github.io
+# Octopress
+# Default extensions
+post_ext: md
+page_ext: md
+# Found in _templates/
+post_layout: post
+page_layout: page
+# Format titles with titlecase?
+titlecase: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
