@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My First Blog Post!
-description: Right...
+description:
 tags:
 modified:
 image:

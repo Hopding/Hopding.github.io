@@ -1,6 +1,8 @@
 ---
 layout: page
 title: CSS Demo
+image:
+  feature: abstract-8.jpg
 ---
 
 Let us start with a demo of the horizontal rule and the 6 header sizes:
