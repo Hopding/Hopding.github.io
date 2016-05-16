@@ -135,9 +135,9 @@ body {
 		height: $front-page-feature-image-height;
 	}
 	.entry-image {
-		min-height: $front-page-feature-image-height;
+		max-height: $front-page-feature-image-height;
 		img {
-			min-height: $front-page-feature-image-height;
+			max-height: $front-page-feature-image-height;
 		}
 	}
 }

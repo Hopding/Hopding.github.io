@@ -1,6 +1,11 @@
 ---
 layout: post
 title: My First Blog Post!
+description: Right...
+tags:
+modified:
+image:
+  feature: abstract-8.jpg
 ---
 
 This is a substantially lengthy sentence that I'm going to use to see just how far I can get the text to stretch to the right of the screen.
