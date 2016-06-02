@@ -1,0 +1,17 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p><a target="_blank" href="{{ site.baseurl }}/gif/salute.gif"><u>07</u></a> (<- salute) - {{ site.description }}</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+    <a class="sidebar-nav-item" href="{{ site.baseurl }}/about">About</a>
+    <a class="sidebar-nav-item" href="{{ site.baseurl }}/posts">Posts</a>
+    <a class="sidebar-nav-item" href="{{ site.baseurl }}/pages">Pages</a>
+  </nav>
+</div>
