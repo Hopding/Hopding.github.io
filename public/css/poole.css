@@ -31,6 +31,7 @@
 /* Font Imports */
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic);
 
 /*
  * Body resets
@@ -62,7 +63,7 @@ html {
 }
 
 body {
-  color: #515151;
+  color: #000;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -135,9 +136,11 @@ dd {
 hr {
   position: relative;
   margin: 1.5rem 0;
+  margin-left: 1em;
+  margin-right: 1em;
   border: 0;
   border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #000;
 }
 
 abbr {
@@ -176,9 +179,11 @@ abbr[title] {
 /* Quotes */
 blockquote {
   padding: .5rem 1rem;
-  margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  margin-left: 1em;
+  color: #595959;
+  border-left: .25rem solid #808080;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
 }
 blockquote p:last-child {
   margin-bottom: 0;
@@ -309,14 +314,14 @@ tbody tr:nth-child(odd) th {
   padding-right: 2em;
   padding-left: 2em;
   border-radius: 1em;
-  background-color: #ffffe6;
+  background-color: #f2f2f2;
 }
 
 .posts {
   padding-top: 2em;
   padding-bottom: 2em;
   border-radius: 1em;
-  background-color: #ffffe6;
+  background-color: #f2f2f2;
 }
 
 /* Blog post or page title */

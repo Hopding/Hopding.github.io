@@ -35,7 +35,7 @@ pre code {
   font-family: 'Source Code Pro', monospace;
   font-size: 100%;
   text-shadow: 0 1px 3px rgba(0,0,0,1);
-  color: d0d0d0;
+  color: #bbb;
   background-color: transparent;
   box-shadow: none;
 }
