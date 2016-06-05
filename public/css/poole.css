@@ -32,6 +32,7 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic);
+@import "bigfoot-default.css";
 
 /*
  * Body resets

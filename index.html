@@ -9,7 +9,7 @@ title: Home
           <li>
             <h2 class="post-title left-align">
               <b>
-                <a href="{{ site.url }}/{{ post.url }}">
+                <a href="{{ site.url }}/{{ post.url | remove_first:'/'}}">
                  &nbsp{{ post.title }}
                 </a>
               </b>
