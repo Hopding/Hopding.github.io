@@ -98,15 +98,16 @@ h1, h2, h3, h4, h5, h6 {
   padding-top:    5px;
   padding-bottom: 10px;
   margin-bottom: 3rem;
+  box-shadow: 0px 4px 5px #000;
 }
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 200%;
-  color: #e6e6e6;
+  font-size: 250%;
+  color: #000;
 }
 .masthead-title a {
-  color: #e6e6e6;
+  color: #000;
 }
 .masthead-title small {
   font-size: 75%;
@@ -132,14 +133,13 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 15px;
     background-color: #000; /* Black */
     color: #e6e6e6;
-    padding: 5px 10px;
+    padding: 5px 5px;
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
     transition-duration: 0.4s;
 }
 
@@ -152,25 +152,28 @@ h1, h2, h3, h4, h5, h6 {
 /*-----------------------------------------------*/
 /* Dropdown Button */
 .dropbtn {
-  border: 2px solid #e6e6e6;
-  background-color: #000; /* Black */
-  border-radius: 15px;
-  color: #e6e6e6;
-  padding: 5px 10px;
-  margin-top: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
+  border: 2px solid #666;
+  background-color: #e6e6e6; /* Black */
+  border-radius: 20px;
+  color: #666;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   transition-duration: 0.4s;
 }
 
 /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-   background-color: #e6e6e6;
+.dropbtn:hover {
    color: #000;
+   border: 2px solid #000;
 }
 
 /* The container <div> - needed to position the dropdown content */

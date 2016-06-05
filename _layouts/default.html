@@ -8,13 +8,13 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+            <a href="{{ site.baseurl }}/" title="Home"><b>{{ site.title }}</b></a>
             <small>{{ site.tagline }}</small>
           </h3>
         </div>
 
         <div class="dropdown">
-         <button onclick="onMenuClick()" class="dropbtn">Menu</button>
+         <button id='menubtn' onclick="onMenuClick()" class="dropbtn">Menu</button>
          <div id="myDropdown" class="dropdown-content">
            <a href="{{ site.baseurl }}/about/">About</a>
            <a href="{{ site.baseurl }}/posts/">Posts</a>
