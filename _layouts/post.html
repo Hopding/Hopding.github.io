@@ -5,7 +5,8 @@ layout: default
 
   <div class="post">
     <h1 class="post-title">{{ page.title }}</h1>
-    {{ content }}
+     <center><span class="post-date">{{ page.date | date_to_string }}</span></center>
+     {{ content }}
     <h2><br><hr>Related Posts</h2>
     <ul class="related-posts center-ul">
       {% for post in site.related_posts limit:3 %}
