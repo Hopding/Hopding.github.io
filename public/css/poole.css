@@ -315,10 +315,10 @@ tbody tr:nth-child(odd) th {
 .page,
 .post {
   margin-bottom: 4em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  padding-right: 2em;
-  padding-left: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   border-radius: 1em;
   background-color: #f2f2f2;
   -moz-box-shadow: 0 0 10px #000;
