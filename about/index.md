@@ -17,7 +17,7 @@ My email is andrew.dillon.j@gmail.com.
 This website is hosted by [GitHub Pages](https://pages.github.com/). If you are so
 inclined, you can access the site's repository [here](https://github.com/Hopding/Hopding.github.io).
 
-#### Why is your blog named "Hopding"?
+## Why is your blog named "Hopding"?
 Because it's a snappy, funny name. It is a nice, woody sort of word, not tinny at all[^1].
 
 [^1] +1 if you caught the Monty Python reference.
