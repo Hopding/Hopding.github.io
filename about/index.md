@@ -18,6 +18,11 @@ This website is hosted by [GitHub Pages](https://pages.github.com/). If you are 
 inclined, you can access the site's repository [here](https://github.com/Hopding/Hopding.github.io).
 
 ## Why is your blog named "Hopding"?
-Because it's a snappy, funny name. It is a nice, woody sort of word, not tinny at all[^1].
+Because it's a snappy, funny name. It has a woody sort of sound to it, not tinny at all
+<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.
 
-[^1] +1 if you caught the Monty Python reference.
+<div class="footnotes"><ol class="hide-content">
+    <li class="footnote" id="fn:1">
+        <p>+1 if you caught the Monty Python reference.<a href="#fnref:1" title="return to article"> ↩</a><p>
+    </li>
+</ol></div>
