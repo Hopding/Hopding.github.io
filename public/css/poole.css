@@ -284,13 +284,14 @@ tbody tr:nth-child(odd) th {
   padding-bottom: 1rem;
   margin-bottom: 3rem;
   text-align: center;
-  background-color: #e6e6e6;
+  background-color: #f2f2f2;
   color: #000;
 }
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
   color: #000;
+  text-shadow: 2px 2px 4px #666;
 }
 .masthead-title a {
   color: #000;
@@ -319,13 +320,24 @@ tbody tr:nth-child(odd) th {
   padding-left: 2em;
   border-radius: 1em;
   background-color: #f2f2f2;
+  -moz-box-shadow: 0 0 10px #000;
+  -webkit-box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px #000;
+  background-image: url("/img/soft-white-background.png");
+  background-size:contain;
 }
 
 .posts {
+  margin-bottom: 4em;
   padding-top: 2em;
   padding-bottom: 2em;
   border-radius: 1em;
   background-color: #f2f2f2;
+  -moz-box-shadow: 0 0 10px #000;
+  -webkit-box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px #000;
+  background-image: url("/img/soft-white-background.png");
+  background-size:contain;
 }
 
 /* Blog post or page title */
@@ -354,7 +366,7 @@ tbody tr:nth-child(odd) th {
   padding-right: 2em;
   padding-left: 2em;
   border-radius: 1em;
-  background-color: #ffffe6;
+  background-color: transparent;
   border-top: 1px solid #eee;
 }
 .related-posts {
@@ -376,6 +388,23 @@ tbody tr:nth-child(odd) th {
   color: inherit;
 }
 
+/*
+ * Disqus comments
+ */
+.comments {
+   margin-bottom: 4em;
+   padding-top: 2em;
+   padding-bottom: 2em;
+   padding-right: 2em;
+   padding-left: 2em;
+   border-radius: 1em;
+   background-color: #f2f2f2;
+   -moz-box-shadow: 0 0 10px #000;
+   -webkit-box-shadow: 0 0 10px #000;
+   box-shadow: 0 0 10px #000;
+   background-image: url("/img/soft-white-background.png");
+   background-size:contain;
+ }
 
 /*
  * Pagination

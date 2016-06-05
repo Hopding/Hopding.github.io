@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My Second Blog Post!
+comments: true
 ---
 ### Hi
 This is my second blog post. This post has no meaningful content, I'm only writing it to see how it looks to have two blog posts
