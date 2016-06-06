@@ -159,6 +159,11 @@ abbr[title] {
   border-bottom: 1px dotted #e5e5e5;
 }
 
+.full-width-hr {
+  margin-left: -2em;
+  margin-right: -2em;
+}
+
 .hide-content {
   display: none;
 }
@@ -285,9 +290,8 @@ tbody tr:nth-child(odd) th {
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
   text-align: center;
-  background-color: transparent;
+  background-color: rgb(220,220,220);
   color: #000;
 }
 .masthead-title {
@@ -315,33 +319,26 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-top: 0em;
+  margin-bottom: 0em;
   padding-top: 1em;
   padding-bottom: 1em;
   padding-left: 0.5em;
   padding-right: 0.5em;
   background-color: transparent;
-  -moz-box-shadow: 0 0 3px #000;
-  -webkit-box-shadow: 0 0 3px #000;
-  box-shadow: 0 0 3px #000;
 }
 
 @media (min-width: 56em) {
   .page,
   .post {
+    margin-top: 2em;
+    margin-bottom: 2em;
     padding-left: 2em;
     padding-right: 2em;
+    -moz-box-shadow: 0 0 3px #000;
+    -webkit-box-shadow: 0 0 3px #000;
+    box-shadow: 0 0 3px #000;
   }
-}
-
-.posts {
-  margin-bottom: 4em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  background-color: transparent;
-  -moz-box-shadow: 0 0 3px #000;
-  -webkit-box-shadow: 0 0 3px #000;
-  box-shadow: 0 0 3px #000;
 }
 
 /* Blog post or page title */
