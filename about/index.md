@@ -14,13 +14,16 @@ My name is Andrew Dillon, and this is my blog. Here are some facts about myself:
 You can contact me by email. I do my best to respond to all emails I receive in a timely fashion.
 My email is andrew.dillon.j@gmail.com.
 
+You can subscribe via RSS with the following URL:
+`http://hopding.com`
+
 This website is hosted by [GitHub Pages](https://pages.github.com/). If you are so
 inclined, you can access the site's repository [here](https://github.com/Hopding/Hopding.github.io).
 
-I've chosen to name my blog Hopding because it's a snappy, funny name. Hopding is also the username I've
-employed for a number of purposes since age 8, and the domain `hopding.com` was available for purchase.
+I've chosen to name my blog Hopding because it's a snappy, funny name. I've employed Hopding as a
+username for a number of purposes since age 8, and the domain `hopding.com` was available for purchase.
 It also has a woody sort of sound to it, not tinny at all[^1].
 
 ### Footnotes
 [^0]: Which, when acronymized is SQUAT - sort of amusing...
-[^1]: +1 is you caught that reference!
+[^1]: +1 if you understood that reference!

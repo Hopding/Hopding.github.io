@@ -65,15 +65,15 @@ html {
 
 body {
   color: #000;
-  background-color: #fff;
+  background-color: rgb(240,240,240);
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
-  text-decoration: none;
+  color: #404040;
+  text-decoration: underline;
 }
 a strong {
   color: inherit;
@@ -289,14 +289,13 @@ tbody tr:nth-child(odd) th {
   padding-bottom: 1rem;
   margin-bottom: 3rem;
   text-align: center;
-  background-color: #f2f2f2;
+  background-color: transparent;
   color: #000;
 }
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
   color: #000;
-  text-shadow: 2px 2px 4px #666;
 }
 .masthead-title a {
   color: #000;
@@ -321,28 +320,22 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 4em;
   padding-top: 1em;
   padding-bottom: 1em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  border-radius: 1em;
-  background-color: #f2f2f2;
-  -moz-box-shadow: 0 0 10px #000;
-  -webkit-box-shadow: 0 0 10px #000;
-  box-shadow: 0 0 10px #000;
-  background-image: url("/img/soft-white-background.png");
-  background-size:contain;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: transparent;
+  -moz-box-shadow: 0 0 3px #000;
+  -webkit-box-shadow: 0 0 3px #000;
+  box-shadow: 0 0 3px #000;
 }
 
 .posts {
   margin-bottom: 4em;
   padding-top: 2em;
   padding-bottom: 2em;
-  border-radius: 1em;
-  background-color: #f2f2f2;
-  -moz-box-shadow: 0 0 10px #000;
-  -webkit-box-shadow: 0 0 10px #000;
-  box-shadow: 0 0 10px #000;
-  background-image: url("/img/soft-white-background.png");
-  background-size:contain;
+  background-color: transparent;
+  -moz-box-shadow: 0 0 3px #000;
+  -webkit-box-shadow: 0 0 3px #000;
+  box-shadow: 0 0 3px #000;
 }
 
 /* Blog post or page title */
@@ -407,8 +400,6 @@ tbody tr:nth-child(odd) th {
    -moz-box-shadow: 0 0 10px #000;
    -webkit-box-shadow: 0 0 10px #000;
    box-shadow: 0 0 10px #000;
-   background-image: url("/img/soft-white-background.png");
-   background-size:contain;
  }
 
 /*

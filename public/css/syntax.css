@@ -16,7 +16,6 @@ code {
 }
 
 pre {
-  box-shadow: inset 1px 1px 2px 1px rgba(0, 0, 0, 1);
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -27,14 +26,12 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  border-radius: 5px;
-  background-color: #262626;
+  background-color: rgb(40,40,40);
 }
 
 pre code {
   font-family: 'Source Code Pro', monospace;
   font-size: 100%;
-  text-shadow: 0 1px 3px rgba(0,0,0,1);
   color: #bbb;
   background-color: transparent;
   box-shadow: none;
