@@ -7,6 +7,7 @@ layout: default
    <br>
    <center>By Andrew Dillon</center>
    <center>{{ page.date | date_to_string }}</center>
+   <center><a href="{{ site.baseurl }}/rss.xml">RSS</a>
   <h2><hr>Related Posts</h2>
   <ul class="related-posts center-ul">
     {% for post in site.related_posts limit:3 %}
