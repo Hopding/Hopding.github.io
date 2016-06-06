@@ -318,19 +318,14 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 4em;
   padding-top: 1em;
   padding-bottom: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   background-color: transparent;
   -moz-box-shadow: 0 0 3px #000;
   -webkit-box-shadow: 0 0 3px #000;
   box-shadow: 0 0 3px #000;
 }
 
-@media (min-width: 38em) {
-  .page,
-  .post {
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-}
 @media (min-width: 56em) {
   .page,
   .post {
