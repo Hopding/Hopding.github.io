@@ -2,12 +2,12 @@
 layout: page
 title: About
 ---
-My name is Andrew Dillon, and this is my blog. Here's some facts about me:
+My name is Andrew Dillon, and this is my blog. Here are some facts about myself:
 
 * I've ridden the Earth all the way around the sun 18 times so far.
 * I've just graduated high school.
 * I live in the United States - St. Louis, Missouri to be exact.
-* I work as a Software QUality Assurance Tester (which when acronymized is SQUAT).
+* I work as a Software Quality Assurance Tester[^0].
 * I'm fascinated by artificial intelligence, and HTM theory in particular.
 * I'm studying Computer Science in university.
 
@@ -17,12 +17,10 @@ My email is andrew.dillon.j@gmail.com.
 This website is hosted by [GitHub Pages](https://pages.github.com/). If you are so
 inclined, you can access the site's repository [here](https://github.com/Hopding/Hopding.github.io).
 
-## Why is your blog named "Hopding"?
-Because it's a snappy, funny name. It has a woody sort of sound to it, not tinny at all
-<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.
+I've chosen to name my blog Hopding because it's a snappy, funny name. Hopding is also the username I've
+employed for a number of purposes since age 8, and the domain `hopding.com` was available for purchase.
+It also has a woody sort of sound to it, not tinny at all[^1].
 
-<div class="footnotes"><ol class="hide-content">
-    <li class="footnote" id="fn:1">
-        <p>+1 if you caught the Monty Python reference.<a href="#fnref:1" title="return to article"> ↩</a><p>
-    </li>
-</ol></div>
+### Footnotes
+[^0]: Which, when acronymized is SQUAT - sort of amusing...
+[^1]: +1 is you caught that reference!

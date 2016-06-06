@@ -5,7 +5,6 @@ layout: default
 
   <div class="post">
     <h1 class="post-title">{{ page.title }}</h1>
-     <center><span class="post-date">{{ page.date | date_to_string }}</span></center>
      {{ content }}
     <h2><br><hr>Related Posts</h2>
     <ul class="related-posts center-ul">
@@ -19,6 +18,8 @@ layout: default
         </li>
       {% endfor %}
     </ul>
+    <center>{{ page.date | date_to_string }}</center>
+    <center><span>By Andrew Dillon</span></center>
   </div>
 
   <div class="comments">
