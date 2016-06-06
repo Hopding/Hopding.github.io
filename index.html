@@ -5,13 +5,13 @@ title: Home
 {% for post in paginator.posts %}
 <div class="post">
   <h1 class="post-title">
-    <a class="no-decoration" href="{{ site.url }}/{{ post.url | remove_first:'/'}}">
+    <a class="no-decoration" href="{{ site.url }}/{{ post.url | remove_first:'/'}}#title">
       {{ post.title }}
     </a>
   </h1>
   {{ post.content }}
   <hr>
-  <center><a href="{{ site.url }}/{{ post.url | remove_first:'/'}}">Comments</a></center>
+  <center><a href="{{ site.url }}/{{ post.url | remove_first:'/'}}#comments">Comments</a></center>
 </div>
 {% endfor %}
 

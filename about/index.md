@@ -14,7 +14,7 @@ My name is Andrew Dillon, and this is my blog. Here are some facts about myself:
 You can contact me by email. I do my best to respond to all emails I receive in a timely fashion.
 My email is andrew.dillon.j@gmail.com.
 
-You can subscribe via RSS with the following URL:
+You can subscribe to this blog via RSS with the following URL:
 `http://hopding.com`
 
 This website is hosted by [GitHub Pages](https://pages.github.com/). If you are so
