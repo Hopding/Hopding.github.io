@@ -1,20 +1,4 @@
 /*
- *                        ___
- *                       /\_ \
- *  _____     ___     ___\//\ \      __
- * /\ '__`\  / __`\  / __`\\ \ \   /'__`\
- * \ \ \_\ \/\ \_\ \/\ \_\ \\_\ \_/\  __/
- *  \ \ ,__/\ \____/\ \____//\____\ \____\
- *   \ \ \/  \/___/  \/___/ \/____/\/____/
- *    \ \_\
- *     \/_/
- *
- * Designed, built, and released under MIT license by @mdo. Learn more at
- * https://github.com/poole/poole.
- */
-
-
-/*
  * Contents
  *
  * Body resets
@@ -46,10 +30,18 @@
           box-sizing: border-box;
 }
 
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+/* Prevent scroll on narrow devices */
 html,
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 html {
@@ -86,6 +78,9 @@ a:focus {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: -.025rem;
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
@@ -109,8 +104,28 @@ h4, h5, h6 {
   font-size: 1rem;
 }
 
+/*
+ * Wrapper
+ *
+ * The wrapper is used to position site content when the sidebar is toggled. We
+ * use an outter wrap to position the sidebar without interferring with the
+ * regular page content.
+ */
+.wrap {
+  position: relative;
+  width: 100%;
+}
+
 .left-align {
   text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.no-decoration {
+  text-decoration: none;
 }
 
 /* Body text */
@@ -192,12 +207,12 @@ abbr[title] {
 
 /* Quotes */
 blockquote {
-  padding: .5rem 1rem;
+  padding: .5rem .5rem;
   margin-left: 1em;
+  margin-right: 0em;
   color: #595959;
   border-left: .25rem solid #808080;
   font-family: 'Merriweather', serif;
-  font-style: italic;
 }
 blockquote p:last-child {
   margin-bottom: 0;
@@ -274,9 +289,19 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  max-width: 38rem;
-  margin-left:  auto;
+  max-width: 28rem;
+  margin-left: auto;
   margin-right: auto;
+}
+@media (min-width: 38em) {
+  .container {
+    max-width: 38rem;
+  }
+}
+@media (min-width: 56em) {
+  .container {
+    max-width: 40rem;
+  }
 }
 
 
@@ -287,8 +312,8 @@ tbody tr:nth-child(odd) th {
  */
 
 .masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
+  padding-top:    5px;
+  padding-bottom: 10px;
   text-align: center;
   background-color: rgb(220,220,220);
   color: #000;
@@ -296,10 +321,13 @@ tbody tr:nth-child(odd) th {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 250%;
   color: #000;
+  text-decoration: none;
 }
 .masthead-title a {
   color: #000;
+  text-decoration: none;
 }
 .masthead-title small {
   font-size: 75%;
@@ -308,6 +336,97 @@ tbody tr:nth-child(odd) th {
   letter-spacing: 0;
 }
 
+@media (max-width: 48em) {
+  .masthead-title {
+    text-align: center;
+  }
+  .masthead-title small {
+    display: none;
+  }
+}
+
+/*
+ * Buttons that go beneath site title in masthead-title
+ */
+.button {
+    border: 2px solid #e6e6e6;
+    border-radius: 15px;
+    background-color: #000; /* Black */
+    color: #e6e6e6;
+    padding: 5px 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #e6e6e6;
+    color: #000;
+    text-decoration: none;
+}
+
+/*-----------------------------------------------*/
+/* Dropdown Button */
+.dropbtn {
+  border: 2px solid #666;
+  background-color: transparent;
+  border-radius: 20px;
+  color: #666;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover {
+   color: #000;
+   border: 2px solid #000;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: rgb(240,240,240);
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   text-align: center;
+   left: -50%;
+   right: -50%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #e6e6e6}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
 
 /*
  * Posts and pages
@@ -321,7 +440,7 @@ tbody tr:nth-child(odd) th {
   margin-top: 0em;
   margin-bottom: 0em;
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 4em;
   padding-left: 0.5em;
   padding-right: 0.5em;
   background-color: transparent;
@@ -358,51 +477,6 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 1rem;
   color: #9a9a9a;
 }
-
-/* Related posts */
-.related {
-  padding-top: 2em;
-  padding-bottom: 2em;
-  padding-right: 2em;
-  padding-left: 2em;
-  border-radius: 1em;
-  background-color: transparent;
-  border-top: 1px solid #eee;
-}
-.related-posts {
-  padding-left: 0;
-  list-style: none;
-}
-.related-posts h3 {
-  margin-top: 0;
-}
-.related-posts li small {
-  font-size: 75%;
-  color: #999;
-}
-.related-posts li a:hover {
-  color: #268bd2;
-  text-decoration: none;
-}
-.related-posts li a:hover small {
-  color: inherit;
-}
-
-/*
- * Disqus comments
- */
-.comments {
-   margin-bottom: 4em;
-   padding-top: 2em;
-   padding-bottom: 2em;
-   padding-right: 2em;
-   padding-left: 2em;
-   border-radius: 1em;
-   background-color: #f2f2f2;
-   -moz-box-shadow: 0 0 10px #000;
-   -webkit-box-shadow: 0 0 10px #000;
-   box-shadow: 0 0 10px #000;
- }
 
 /*
  * Pagination
