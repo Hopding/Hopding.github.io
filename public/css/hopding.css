@@ -48,6 +48,7 @@ html {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  position: relative;
 }
 @media (min-width: 38em) {
   html {
@@ -57,7 +58,7 @@ html {
 
 body {
   color: #000;
-  background-color: rgb(240,240,240);
+  background-color: rgb(245,245,245);
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -172,11 +173,6 @@ abbr {
 abbr[title] {
   cursor: help;
   border-bottom: 1px dotted #e5e5e5;
-}
-
-.full-width-hr {
-  margin-left: -2em;
-  margin-right: -2em;
 }
 
 .hide-content {

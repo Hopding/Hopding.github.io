@@ -2,8 +2,8 @@
 layout: default
 title: Home
 ---
-<div class="page">
 {% for post in paginator.posts %}
+<div class="page">
   <h1 class="post-title">
     <a class="no-decoration" href="{{ site.url }}/{{ post.url | remove_first:'/'}}#title">
       {{ post.title }}
@@ -11,6 +11,5 @@ title: Home
   </h1>
   {{ post.content }}
   <center><a href="{{ site.url }}/{{ post.url | remove_first:'/'}}#comments">Comments</a></center>
-  <hr class="full-width-hr">
-{% endfor %}
 </div>
+{% endfor %}
