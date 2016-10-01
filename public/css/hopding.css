@@ -58,7 +58,7 @@ html {
 
 body {
   color: #000;
-  background-color: rgb(245,245,245);
+  background-image: url("/img/grey-linen.png");
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -204,11 +204,13 @@ abbr[title] {
 /* Quotes */
 blockquote {
   padding: .5rem .5rem;
-  margin-left: 1em;
+  margin-left: .5em;
   margin-right: 0em;
   color: #595959;
   border-left: .25rem solid #808080;
   font-family: 'Merriweather', serif;
+  font-size: 18.5px;
+  line-height: 1.5;
 }
 blockquote p:last-child {
   margin-bottom: 0;
@@ -220,10 +222,13 @@ blockquote p:last-child {
 }
 
 img {
+  padding: 20px 20px 20px 20px;
   display: block;
   max-width: 100%;
-  margin: 0 0 1rem;
-  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #ccc;
+  border-radius: 15px;
 }
 
 /* Tables */
@@ -296,7 +301,7 @@ tbody tr:nth-child(odd) th {
 }
 @media (min-width: 56em) {
   .container {
-    max-width: 40rem;
+    max-width: 47rem;
   }
 }
 
@@ -311,7 +316,7 @@ tbody tr:nth-child(odd) th {
   padding-top:    5px;
   padding-bottom: 10px;
   text-align: center;
-  background-color: rgb(220,220,220);
+  background-color: rgb(200,200,200);
   color: #000;
 }
 .masthead-title {
@@ -439,7 +444,7 @@ tbody tr:nth-child(odd) th {
   padding-bottom: 4em;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  background-color: transparent;
+  background-color: rgb(230,230,230);
 }
 
 @media (min-width: 56em) {
@@ -449,9 +454,9 @@ tbody tr:nth-child(odd) th {
     margin-bottom: 2em;
     padding-left: 2em;
     padding-right: 2em;
-    -moz-box-shadow: 0 0 3px #000;
-    -webkit-box-shadow: 0 0 3px #000;
-    box-shadow: 0 0 3px #000;
+    -moz-box-shadow: 0 0 7px #000;
+    -webkit-box-shadow: 0 0 7px #000;
+    box-shadow: 0 0 7px #000;
   }
 }
 

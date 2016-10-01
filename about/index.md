@@ -7,7 +7,6 @@ title: About
 My name is Andrew Dillon, and this is my blog. Here are some facts about myself:
 
 * I've ridden the Earth all the way around the sun 18 times so far.
-* I've just graduated high school.
 * I live in the United States - St. Louis, Missouri to be exact.
 * I work as a Software Quality Assurance Tester[^0].
 * I'm fascinated by artificial intelligence, and HTM theory in particular.
