@@ -118,7 +118,11 @@ The SDR Classifier must update its weight matrix in order to learn and make more
 
 The SDR Classifier uses a simple learning algorithm to slowly correct its predictions and get close to $$100\%$$ accuracy. Each iteration, the SDR Classifier makes a prediction about the input $$n$$ steps in the future. This prediction is in the form of a probability distribution. We can represent it like so:
 
-$$y = (y_1, y_2, ... , y_k)\ ,\ where\ y\ is\ our\ computed\ probability\ distribution$$
+$$y = (y_1, y_2, ... , y_k)$$
+
+Where,
+
+* $$y$$ is our computed probability distribution.
 
 Each index/element of $$y$$ is the likelihood computed by the SDR Classifier of seeing that bucket index used by the encoder. The probability distribution we just computed for our example looks like this:
 
@@ -126,7 +130,11 @@ $$y = (0.02, 0.005, 0.98)$$
 
 Each time step we also get a **target distribution**. This is simply the probability distribution that we want _our_ predicted distribution, $$y$$, to match. We can model it like so:
 
-$$z = (z_1, z_2, ... , z_k)\ ,\ where\ z\ is\ the\ target\ distribution$$
+$$z = (z_1, z_2, ... , z_k)$$
+
+Where,
+
+* $$z$$ is the target distribution.
 
 All of $$z$$'s indexes/elements will be 0, except for one. The "on" element is the one that matches the bucket used by the encoder to encode the input at that time step.
 
@@ -200,6 +208,22 @@ W' =
 $$
 
 (Weights highlighted red have been lowered. Weights highlighted green have been increased.)
+
+## SDR Classifier as a function
+It can be helpful to think of the SDR Classifier as a sort of function that given a particular input vector and weight matrix will produce a particular probability distribution.
+
+We can model this function like so:
+
+$$ p(C_k\mid x, w) = y_k = {e^{a_k} \over \sum_{i=1}^{k}e^{a_i}} $$
+
+Where,
+
+* $$C_k$$ represents a particular classification of the input. Each possible classification/class equates to a particular encoder bucket. Each OU represents a single class.
+* $$x = (x_1, x_2, ... , x_N)$$ represents the sparse binary input vector (a large vector of $$1$$s and $$0$$s, where the majority of elements are $$0$$s).
+* $$w = W$$ represents our weight matrix at this particular point in time.
+* $$ p(C_k\mid x, w) = y_k $$ represents the Softmaxed probability of seeing the input $$n$$ steps in the future encoded as the $$k^{th}$$ class. Running this for all possible classifications (all values of $$k$$) produces a complete probability distribution, $$y$$.
+
+Notice that this function model does not incorporate the learning process of the SDR Classifier.
 
 ## Outline of Operations
 Just to reiterate and outline the series of operations the SDR Classifier goes through every time step:
