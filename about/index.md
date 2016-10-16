@@ -11,6 +11,8 @@ My name is Andrew Dillon. I am a resident of St. Louis, Missouri. I'm currently 
 You can contact me by email. I do my best to respond to all emails I receive in a timely fashion.
 My email is andrew.dillon.j@gmail.com.
 
+I am also on [GitHub](https://github.com/Hopding) and [LinkedIn](https://www.linkedin.com/in/andrew-dillon-64b539119?trk=nav_responsive_tab_profile_pic).
+
 ### RSS
 
 You can subscribe to this blog via RSS with the following URL:
