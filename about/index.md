@@ -4,7 +4,7 @@ title: About
 ---
 ### About Me
 
-My name is Andrew Dillon. I am a resident of St. Louis, Missouri. I'm currently studying Computer Science as an undergraduate. I work as a Software Tester, and enjoy learning about machine learning in my spare time. I am fascinated by [HTM theory](https://en.wikipedia.org/wiki/Hierarchical_temporal_memory) in particular, and have contributed to the [HTM.Java project](https://github.com/numenta/htm.java/blob/master/README.md).
+My name is Andrew Dillon. I am a resident of St. Louis, Missouri. I'm currently studying Computer Science as an undergraduate. I work as a Software Tester. I enjoy writing software, thinking about the future, and learning about machine learning/AI in my spare time. I am fascinated by [HTM theory](https://en.wikipedia.org/wiki/Hierarchical_temporal_memory) in particular, and have contributed to the [HTM.Java project](https://github.com/numenta/htm.java/blob/master/README.md).
 
 ### Contact
 
