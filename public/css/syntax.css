@@ -1,5 +1,7 @@
 code,
-pre {}
+pre {
+  background-color: #000000;
+}
 
 code {
   font-size: 90%;
@@ -32,7 +34,7 @@ pre {
 pre code {
   font-family: 'Source Code Pro', monospace;
   font-size: 100%;
-  color: #bbb;
+  color: #ffffff;
   background-color: transparent;
   box-shadow: none;
 }
