@@ -24,7 +24,10 @@ require a username and password for authentication.
 Now, when you start up your Cassandra Docker container, you'll be required to
 specify a username and password to access the database. The default login's
 username is `cassandra`, and the default password is also `cassandra`. So, if
-you want to start a `cqlsh` session, you'll have to execute:
+you want to start a `cqlsh` session, you'll have to execute (after starting a 
+shell in the container, of course - see 
+[this](http://dev-smart.com/docker-cheetsheet/), unless you've mapped the
+container to a host port):
 
 ~~~
 cqlsh -u cassandra -p cassandra
