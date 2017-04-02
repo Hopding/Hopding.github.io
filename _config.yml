@@ -1,24 +1,18 @@
-# Permalinks
+# Welcome to Jekyll!
 #
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           /:title
-gems: [jekyll-paginate]
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Hopding
+email: andrew.dillon.j@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Andrew Dillon's blog - thoughts I have, explanations, and tutorials.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://hopding.com" # the base hostname & protocol for your site
+github_username:  Hopding
+
+# Build settings
 markdown: kramdown
-
-# Setup
-title:               Hopding
-tagline:             ''
-url:                 http://hopding.com
-baseurl:             ''
-paginate:            5
-paginate_path:       "page:num"
-
-# About/contact
-author:
-  name:              Andrew Dillon
-  description:       Andrew Dillon's blog
-  url:               http://hopding.com
-  email:             andrew.dillon.j@gmail.com
-
-# Custom vars
-version:             1.0.0

@@ -2,7 +2,7 @@
 layout: page
 title: Search
 ---
-You can search my blog with google by entering a query into the text box below[^1].
+You can search my blog with Google by entering a query into the text box below[^1].
 
 ---
 

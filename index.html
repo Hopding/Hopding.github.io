@@ -1,15 +1,23 @@
 ---
 layout: default
-title: Home
 ---
-{% for post in paginator.posts %}
-<div class="page">
-  <h1 class="post-title">
-    <a class="no-decoration" href="{{ site.url }}/{{ post.url | remove_first:'/'}}#title">
-      {{ post.title }}
-    </a>
-  </h1>
-  {{ post.content }}
-  <center><a href="{{ site.url }}/{{ post.url | remove_first:'/'}}#comments">Comments</a></center>
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
 </div>
-{% endfor %}
