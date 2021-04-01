@@ -14,7 +14,7 @@ To enable authentication, just add this line to your `Dockerfile`:
 
 ~~~
 # Require user & pass for accessing Cassandra instance within container
-RUN echo "authenticator: PasswordAuthenticator" >> /etc/cassandra/cassandra.yaml
+RUN sed -i 's/authenticator: AllowAllAuthenticator/authenticator: PasswordAuthenticator/g' /etc/cassandra/cassandra.yaml
 ~~~
 
 All this does is add a line to the [cassandra.yaml](https://docs.datastax.com/en/cassandra/2.1/cassandra/configuration/configCassandra_yaml_r.html)
